@@ -1,0 +1,126 @@
+/*==== GENERAL PAGE STYLE ==== */
+body {margin: 0;font-family: Georgia, 'Times New Roman', Times, serif; background:linear-gradient(135deg,
+    #f2f9ff,#dcefff,#c7e3f5);color: #17324d;}
+/*===== HOME PAGE=====*/
+.home-page h1{font-size: 35px; color: #1769aa;margin: 0;}
+.home-page p {font-size: 40px; line-height: 1.5; max-width: 600px; margin: 10px auto;}
+.home-page a {display: inline-block;margin-top: 25px auto 0;padding: 15px 25px;
+     background-color: #1769aa;
+color: white; text-decoration: none; border-radius: 30px;
+font-weight: bold;transition: 0.3s;font-size: 20px;position: absolute; top: 80%;right: 50%;}
+.home-page a:hover {background-color: #0d4775; transform: scale(1.05);}
+.hearts span {position: absolute; bottom: -50px; color: #1769aa;font-size: 50px;
+    animation: floatheart 8s linear infinite;}
+    @keyframes floatheart{0%
+    {transform: translateY(0);}
+100% {transform: translateY(-110vh);}}
+.hearts span:nth-child(1) {
+    left: 5%;
+    animation-delay: 0s;
+}
+.hearts span:nth-child(2) {
+    left: 18%;
+    animation-delay: 1s;
+}
+.hearts span:nth-child(3) {
+    left: 30%;
+    animation-delay: 2s;
+}
+.hearts span:nth-child(4) {
+    left: 42%;
+    animation-delay: 3s;
+}
+.hearts span:nth-child(5) {
+    left: 55%;
+    animation-delay: 4s;
+}
+.hearts span:nth-child(6) {
+    left: 68%;
+    animation-delay: 5s;
+}
+
+.hearts span:nth-child(7) {
+    left: 80%;
+    animation-delay: 6s;
+}
+
+.hearts span:nth-child(8) {
+    left: 92%;
+    animation-delay: 7s;
+}.reasons-page {
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 20px;
+    box-sizing: border-box;
+
+    background: linear-gradient(135deg, #eaf6ff, #d6efff, #f9fcff);
+    color: #23415c;
+
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+
+/* TITLE */
+
+.reasons-page h1 {
+    text-align: center;
+    color: #1769aa;
+    font-size: 42px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+
+/* THE NUMBERED LIST */
+
+.reasons-page ol {
+    max-width: 700px;
+    margin: auto;
+    padding-left: 45px;
+}
+
+
+/* EACH REASON = CUTE CARD */
+
+.reasons-page li {
+    background: rgba(255, 255, 255, 0.9);
+
+    margin: 18px 0;
+    padding: 18px 22px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 6px 18px rgba(23, 105, 170, 0.12);
+
+    font-size: 18px;
+    line-height: 1.6;
+
+    transition: 0.3s ease;
+}
+
+
+/* LITTLE HOVER EFFECT */
+
+.reasons-page li:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 25px rgba(23, 105, 170, 0.2);
+}
+
+.music {
+    background:blue;
+    width: 320px;
+    max-width: 85%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(214, 91, 143, 0.2);
+}
+
+.music {
+    width: 100%;
+}
