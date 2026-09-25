@@ -5,7 +5,7 @@ body {margin: 0;font-family: Georgia, 'Times New Roman', Times, serif; backgroun
 .home-page h1{font-size: 35px; color: #1769aa;margin: 0;}
 .home-page p {font-size: 40px; line-height: 1.5; max-width: 600px; margin: 10px auto;}
 .home-page a {display: inline-block;margin-top: 50px auto 0;padding: 55px 80px;
-     background-color: #1769aa;
+     background-color: #1769aa; margin: 20px 20px 20px;
 color: white; text-decoration: none; border-radius: 30px;
 font-weight: bold;font-size: 38px;position: fixed; top: 80%;right: 70%;transform: translateY(-50%) ;;}
 .home-page a:hover {background-color: #0d4775; transform: scale(1.05);}
