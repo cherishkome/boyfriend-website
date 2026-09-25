@@ -9,7 +9,7 @@ body {margin: 0;font-family: Georgia, 'Times New Roman', Times, serif; backgroun
 color: white; text-decoration: none; border-radius: 30px;
 font-weight: bold;font-size: 38px; top: 80%;right: 70%; text-align: right;}
 .home-page a:hover {background-color: #0d4775; transform: scale(1.05);}
-.hearts span {position: absolute; bottom: -50px; color: #1769aa;font-size: 50px;
+.hearts span {position: absolute; bottom: -50px; color: #1769aa;font-size: 200px;
     animation: floatheart 8s linear infinite;}
     @keyframes floatheart{0%
     {transform: translateY(0);}
@@ -23,7 +23,7 @@ font-weight: bold;font-size: 38px; top: 80%;right: 70%; text-align: right;}
     animation-delay: 1s;
 }
 .hearts span:nth-child(3) {
-    left: 30%;
+right: 30%;
     animation-delay: 2s;
 }
 .hearts span:nth-child(4) {
@@ -31,7 +31,7 @@ font-weight: bold;font-size: 38px; top: 80%;right: 70%; text-align: right;}
     animation-delay: 3s;
 }
 .hearts span:nth-child(5) {
-    left: 55%;
+    right: 55%;
     animation-delay: 4s;
 }
 .hearts span:nth-child(6) {
@@ -45,7 +45,7 @@ font-weight: bold;font-size: 38px; top: 80%;right: 70%; text-align: right;}
 }
 
 .hearts span:nth-child(8) {
-    left: 92%;
+    right: 92%;
     animation-delay: 7s;
 }.reasons-page {
     min-height: 100vh;
